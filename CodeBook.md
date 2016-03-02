@@ -4,11 +4,10 @@
 Information about the variables (including units!) in the data set not contained in the tidy data 
 
 ##Summary:
-Information about the summary choices you made 
+The project collects, works with, and cleans a data set for further analysis. 
 
 ##Study Design: 
-Information about the experimental study design you used 
-There should be a section called "Study design" that has a thorough description of how you collected the data. 
+Obtained the raw data (Human Activity Recognition Using Smartphones Data Set) from the date source below and unzipped the source files to the right folder, and then process the data with run_analysis.R, whcih include the following works:Merges the training and the test sets to create one data set; Extracts only the measurements on the mean and standard deviation for each measurement; Uses descriptive activity names to name the activities in the data set; Appropriately labels the data set with descriptive variable names; From the data set in the last step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Source:
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
