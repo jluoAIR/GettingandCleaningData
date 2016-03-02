@@ -1,17 +1,20 @@
 # Getting and Cleaning Data Course Project
 
-The goal of this project is to prepare tidy data that can be used for later analysis. Four components will be submited:
-1) a tidy data 
-2) a link to a Github repository with your script for performing the analysis, 
-3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
-4) a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
+The goal of this project is to prepare tidy data that can be used for later analysis. 
 
+## Files and file connection 
+1) ReadMe.md: explains how the scripts work and connected.
+2) CodeBook.md: describes the variables, the data, and any transformations or work to clean up the data.
+3) run_analysis.R: read raw data and clean to get tidy data.
+4) tidyData.txt: the output data file which contains tidy data.
 
-You should create one R script called run_analysis.R that does the following.
-
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names.
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-Good luck!
+## Work steps
+1) Download the raw data zip file from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+2) Unzip the file to working directory
+3) Run the script run_analysis.R and it can
+. Merges the training and the test sets to create one data set.
+. Extracts the measurements on the mean and standard deviation for each measurement.
+. Uses descriptive activity names to name the activities in the data set
+. Labels the data set with descriptive variable names.
+. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+4) After run the script, a tidy data file (tidyData.txt) will be generated. 
