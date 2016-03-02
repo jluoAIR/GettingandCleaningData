@@ -1,6 +1,6 @@
-#The code book 
+#Code Book 
 
-##Code book
+##Data Dictionary
 Information about the variables (including units!) in the data set not contained in the tidy data 
 ##Summary
 Information about the summary choices you made 
