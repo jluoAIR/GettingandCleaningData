@@ -6,7 +6,7 @@ Information about the variables (including units!) in the data set not contained
 ##Summary:
 Information about the summary choices you made 
 
-##Study design: 
+##Study Design: 
 Information about the experimental study design you used 
 There should be a section called "Study design" that has a thorough description of how you collected the data. 
 
